@@ -1,11 +1,10 @@
 //Important steps:
 // Does: describe exists?, it exists?, test exists? getByText? render()?, expect().toBe()
 
-import CustomButton, { ButtonState } from "./customButton"
+
 import {fireEvent, render } from "@testing-library/react" //isnt found, must manually be imported
 import "@testing-library/jest-dom"
-
- 
+import { ButtonState, CustomButton } from "./CustomButton"
 
 
 //DisplayName() JUnit == collection of test, en metod med multipla asserts
@@ -59,12 +58,4 @@ describe("Custom Button Component States", () => {
     })
 
 })
-
-
-
-
-
-
-it("", () => {})
-test("", () => {})
 

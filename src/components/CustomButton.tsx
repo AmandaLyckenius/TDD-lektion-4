@@ -19,7 +19,7 @@ interface CustomButtonProps {
     buttonText: string
 }
 
-export default function CustomButton(props: CustomButtonProps){
+export function CustomButton(props: CustomButtonProps){
     const [buttonState, setButtonState] = useState<ButtonState>(ButtonState.idle)
     const [buttonStateTwo, setButtonStateTwo] = useState<ButtonStateTwo>("idle")
     
